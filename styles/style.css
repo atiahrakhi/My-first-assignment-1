@@ -126,6 +126,40 @@ nav button{
     font-weight:600;
     
 } */
+ /* main style */
+ main{
+  max-width: 1280px;
+  margin: 0 auto;
+ }
+
+ main section{
+  margin-top: 80px;
+  margin: 120px 160px 160px 80px;
+ }
+
+
+ /* shared style */
+
+.text-right{
+  text-align: left;
+
+}
+
+
+.section-title{
+font-size: 40px;
+font-weight: 700;
+color: rgba(14, 14, 14, 1);
+}
+
+
+.section-description{
+font-size: 16px;
+font-weight: 400;
+
+color: rgba(14, 14, 14, 0.7);
+}
+ 
 
 /* banner style */
 
@@ -165,6 +199,9 @@ nav button{
 .banner-picture{
   width: 800x ;
 }
+
+/*all button style */
+
 .btn-style{
   color: rgba(255, 255, 255, 1);
   background-color: rgba(0, 106, 80, 1);
@@ -176,3 +213,71 @@ nav button{
 .btn-style:hover{
   background-color: burlywood;
 }
+.btn-style.icon1{
+  background-color: rgba(84, 144, 245, 1); 
+}
+
+.btn-style.icon2{
+  background-color: rgba(9, 161, 92, 1);
+}
+.btn-style.icon3{
+background-color: rgba(255, 194, 57, 1);
+}
+.icon1:hover,.icon2:hover,.icon3:hover{
+  background-color: burlywood
+
+}
+
+/* vision styles */
+section>.vision-style,.vision-container{
+gap: 32px;
+opacity: 0px;
+
+  
+  gap: 32px;
+}
+
+
+.vision-container{
+  display: flex;
+  gap:32x;
+  width: 1280px;
+
+}
+.vision>.vision-title,.vision-description{
+  color: rgba(14, 14, 14, 0.8);
+
+}
+
+
+
+.vision{
+  padding: 32px;
+  margin: 120px 32px 97px;
+  border-radius: 16px;
+  width: 400px;
+  gap: 24px;
+
+
+    
+}
+
+.vision.one{
+  background: rgba(84, 144, 245, 0.2);
+  border: 1px solid rgba(84, 144, 245, 1)
+
+}
+.vision.two{
+  background: rgba(198, 228, 214, 1);
+  border: 1px solid rgba(9, 161, 92, 1)
+}
+.vision.three{
+  background: rgba(247, 235, 207, 1);
+  border: 1px solid rgba(255, 194, 57, 1);
+  
+}
+
+
+
+
+  
