@@ -224,24 +224,23 @@ color: rgba(14, 14, 14, 0.7);
 background-color: rgba(255, 194, 57, 1);
 }
 .icon1:hover,.icon2:hover,.icon3:hover{
-  background-color: burlywood
+  background-color: burlywood;
 
 }
 
 /* vision styles */
-section>.vision-style,.vision-container{
+.vision-style{
+  text-align:left;
 gap: 32px;
 opacity: 0px;
-
-  
-  gap: 32px;
+ 
 }
-
-
 .vision-container{
   display: flex;
+  justify-content:space-around;
   gap:32x;
   width: 1280px;
+  
 
 }
 .vision>.vision-title,.vision-description{
@@ -276,8 +275,17 @@ opacity: 0px;
   border: 1px solid rgba(255, 194, 57, 1);
   
 }
+/* recent news */
 
 
 
 
-  
+
+
+
+
+
+
+
+
+
