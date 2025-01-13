@@ -305,9 +305,9 @@ opacity: 0px;
 }
 
 .news-content.cont-bd{
-/* width: 744px;
+width: 744px;
 height: 210px;
-gap: 12px; */
+gap: 12px;
 
 
 }
@@ -340,6 +340,21 @@ height: 306px;
 gap: 0px;
 border-radius: 24px;
 
+}
+.time{
+  width: Fill (744px)px;
+  height: Hug (24px)px;
+  gap: 12px;
+  list-style: none;
+  display: flex;
+  color: rgba(14, 14, 14, 0.7); 
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+
+
+
+  
 }
 
 
